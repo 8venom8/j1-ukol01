@@ -70,8 +70,62 @@ public class HlavniProgram {
         zofka.move(30d);
         zofka.turnRight(35);
 
+        zofka.turnRight(90);
+        zofka.move(120d);
+        zofka.penDown();
+
+        osmiuhelnik(zofka);
+
+        zofka.penUp();
+        zofka.move(200);
+        zofka.penDown();
+
+        kolecko(zofka);
+
+        zofka.turnLeft(90);
+        zofka.penUp();
+        zofka.move(200);
+        zofka.turnRight(90);
+        zofka.penDown();
+
+        slunicko(zofka);
+    }
+
+    private static void slunicko(Turtle zofka) {
+        for (int i = 0; i < 9; i++) {
+            zofka.move(18d);
+            zofka.turnLeft(20);
+            zofka.move(18d);
+            zofka.turnLeft(20);
+            zofka.move(18d);
+            zofka.turnLeft(20);
+            zofka.turnRight(110);
+            zofka.move(40);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(40);
+            zofka.turnRight(90);
+            zofka.penDown();
+        }
 
     }
+
+    private static void kolecko(Turtle zofka) {
+        for (int i = 0; i < 18; i++) {
+            zofka.move(18d);
+            zofka.turnLeft(20);
+        }
+
+    }
+
+    private static void osmiuhelnik(Turtle zofka) {
+        for (int i = 0; i < 8; i++) {
+            zofka.move(40d);
+            zofka.turnLeft(45);
+        }
+
+    }
+
 
     public static void main(String[] args) {
         new HlavniProgram().start();
