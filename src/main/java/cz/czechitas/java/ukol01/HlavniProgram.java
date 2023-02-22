@@ -75,252 +75,252 @@ public class HlavniProgram {
         writeLetterY(zofka);
     }
 
-    private static void writeLetterV(Turtle zofka) {
-        zofka.turnLeft(110);
-        zofka.penDown();
-        zofka.move(55d);
-        zofka.turnRight(180);
-        zofka.penUp();
-        zofka.move(55d);
+    private static void writeLetterV(Turtle turtle) {
+        turtle.turnLeft(110);
+        turtle.penDown();
+        turtle.move(55d);
+        turtle.turnRight(180);
+        turtle.penUp();
+        turtle.move(55d);
 
-        zofka.turnLeft(135);
-        zofka.penDown();
-        zofka.move(55d);
-        zofka.turnLeft(180);
-        zofka.penUp();
-        zofka.move(55d);
-        zofka.turnLeft(115);
-        zofka.move(50d);
+        turtle.turnLeft(135);
+        turtle.penDown();
+        turtle.move(55d);
+        turtle.turnLeft(180);
+        turtle.penUp();
+        turtle.move(55d);
+        turtle.turnLeft(115);
+        turtle.move(50d);
     }
 
-    private static void writeLetterE(Turtle zofka) {
-        zofka.penDown();
-        zofka.move(30d);
-        zofka.turnRight(180);
-        zofka.penUp();
-        zofka.move(30d);
-        zofka.turnRight(90);
-        zofka.penDown();
-        zofka.move(25d);
-        zofka.turnRight(90);
-        zofka.move(30d);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(30d);
-        zofka.turnRight(90);
-        zofka.penDown();
-        zofka.move(25d);
-        zofka.turnRight(90);
-        zofka.move(30d);
-        zofka.turnRight(180);
-        zofka.penUp();
-        zofka.move(30d);
-        zofka.turnLeft(90);
-        zofka.move(50d);
-        zofka.turnLeft(90);
-        zofka.move(60d);
+    private static void writeLetterE(Turtle turtle) {
+        turtle.penDown();
+        turtle.move(30d);
+        turtle.turnRight(180);
+        turtle.penUp();
+        turtle.move(30d);
+        turtle.turnRight(90);
+        turtle.penDown();
+        turtle.move(25d);
+        turtle.turnRight(90);
+        turtle.move(30d);
+        turtle.penUp();
+        turtle.turnRight(180);
+        turtle.move(30d);
+        turtle.turnRight(90);
+        turtle.penDown();
+        turtle.move(25d);
+        turtle.turnRight(90);
+        turtle.move(30d);
+        turtle.turnRight(180);
+        turtle.penUp();
+        turtle.move(30d);
+        turtle.turnLeft(90);
+        turtle.move(50d);
+        turtle.turnLeft(90);
+        turtle.move(60d);
     }
 
-    private static void writeLetterN(Turtle zofka) {
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(50d);
-        zofka.turnRight(135);
-        zofka.move(70d);
-        zofka.turnLeft(135);
-        zofka.move(50d);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(50d);
-        zofka.turnLeft(90);
-        zofka.move(40d);
+    private static void writeLetterN(Turtle turtle) {
+        turtle.penDown();
+        turtle.turnLeft(90);
+        turtle.move(50d);
+        turtle.turnRight(135);
+        turtle.move(70d);
+        turtle.turnLeft(135);
+        turtle.move(50d);
+        turtle.penUp();
+        turtle.turnLeft(180);
+        turtle.move(50d);
+        turtle.turnLeft(90);
+        turtle.move(40d);
     }
 
-    private static void writeLetterD(Turtle zofka) {
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(50d);
-        zofka.turnRight(110);
-        zofka.move(30d);
-        zofka.turnRight(70);
-        zofka.move(30d);
-        zofka.turnRight(70);
-        zofka.move(30d);
-        zofka.turnRight(200);
-        zofka.penUp();
-        zofka.move(60d);
+    private static void writeLetterD(Turtle turtle) {
+        turtle.penDown();
+        turtle.turnLeft(90);
+        turtle.move(50d);
+        turtle.turnRight(110);
+        turtle.move(30d);
+        turtle.turnRight(70);
+        turtle.move(30d);
+        turtle.turnRight(70);
+        turtle.move(30d);
+        turtle.turnRight(200);
+        turtle.penUp();
+        turtle.move(60d);
     }
 
-    private static void writeLetterY(Turtle zofka) {
-        zofka.turnLeft(90);
-        zofka.penDown();
-        zofka.move(30d);
-        zofka.turnLeft(35);
-        zofka.move(22d);
-        zofka.turnLeft(180);
-        zofka.penUp();
-        zofka.move(22d);
-        zofka.turnLeft(110);
-        zofka.penDown();
-        zofka.move(22d);
-        zofka.turnLeft(180);
-        zofka.penUp();
-        zofka.move(22d);
-        zofka.turnLeft(35);
-        zofka.move(30d);
-        zofka.turnLeft(90);
-        zofka.move(60d);
+    private static void writeLetterY(Turtle turtle) {
+        turtle.turnLeft(90);
+        turtle.penDown();
+        turtle.move(30d);
+        turtle.turnLeft(35);
+        turtle.move(22d);
+        turtle.turnLeft(180);
+        turtle.penUp();
+        turtle.move(22d);
+        turtle.turnLeft(110);
+        turtle.penDown();
+        turtle.move(22d);
+        turtle.turnLeft(180);
+        turtle.penUp();
+        turtle.move(22d);
+        turtle.turnLeft(35);
+        turtle.move(30d);
+        turtle.turnLeft(90);
+        turtle.move(60d);
     }
 
-    private static void drawHouse(Turtle zofka) {
+    private static void drawHouse(Turtle turtle) {
 
-        zofka.penDown();
-        zofka.move(80d);
-        zofka.turnLeft(90);
-        zofka.move(110d);
-        zofka.turnLeft(90);
-        zofka.move(80d);
-        zofka.turnLeft(90d);
-        zofka.move(110d);
-        zofka.turnRight(180);
-        zofka.penUp();
-        zofka.move(110d);
-        zofka.turnRight(30);
-        zofka.penDown();
-        zofka.move(80d);
-        zofka.turnRight(120);
-        zofka.move(80d);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(80d);
-        zofka.turnLeft(120);
-        zofka.move(80d);
-        zofka.turnLeft(30);
-        zofka.move(110d);
+        turtle.penDown();
+        turtle.move(80d);
+        turtle.turnLeft(90);
+        turtle.move(110d);
+        turtle.turnLeft(90);
+        turtle.move(80d);
+        turtle.turnLeft(90d);
+        turtle.move(110d);
+        turtle.turnRight(180);
+        turtle.penUp();
+        turtle.move(110d);
+        turtle.turnRight(30);
+        turtle.penDown();
+        turtle.move(80d);
+        turtle.turnRight(120);
+        turtle.move(80d);
+        turtle.penUp();
+        turtle.turnRight(180);
+        turtle.move(80d);
+        turtle.turnLeft(120);
+        turtle.move(80d);
+        turtle.turnLeft(30);
+        turtle.move(110d);
     }
 
-    private static void drawHouseCycle(Turtle zofka) {
+    private static void drawHouseCycle(Turtle turtle) {
 
         for (int i = 0; i < 5; i++) {
-            zofka.penDown();
-            zofka.move(80d);
-            zofka.turnLeft(90);
-            zofka.move(110d);
-            zofka.turnLeft(90);
-            zofka.move(80d);
-            zofka.turnLeft(90d);
-            zofka.move(110d);
-            zofka.turnRight(180);
-            zofka.penUp();
-            zofka.move(110d);
-            zofka.turnRight(30);
-            zofka.penDown();
-            zofka.move(80d);
-            zofka.turnRight(120);
-            zofka.move(80d);
-            zofka.penUp();
-            zofka.turnRight(180);
-            zofka.move(80d);
-            zofka.turnLeft(120);
-            zofka.move(80d);
-            zofka.turnLeft(30);
-            zofka.move(110d);
+            turtle.penDown();
+            turtle.move(80d);
+            turtle.turnLeft(90);
+            turtle.move(110d);
+            turtle.turnLeft(90);
+            turtle.move(80d);
+            turtle.turnLeft(90d);
+            turtle.move(110d);
+            turtle.turnRight(180);
+            turtle.penUp();
+            turtle.move(110d);
+            turtle.turnRight(30);
+            turtle.penDown();
+            turtle.move(80d);
+            turtle.turnRight(120);
+            turtle.move(80d);
+            turtle.penUp();
+            turtle.turnRight(180);
+            turtle.move(80d);
+            turtle.turnLeft(120);
+            turtle.move(80d);
+            turtle.turnLeft(30);
+            turtle.move(110d);
 
-            zofka.turnRight(90);
-            zofka.move(200d);
-            zofka.turnRight(180);
+            turtle.turnRight(90);
+            turtle.move(200d);
+            turtle.turnRight(180);
         }
 
     }
 
-    private static void drawPiggy(Turtle zofka) {
+    private static void drawPiggy(Turtle turtle) {
         for (int i = 0; i <2; i++) {
-            zofka.move(70d);
-            zofka.turnRight(90);
-            zofka.move(100d);
-            zofka.turnRight(90);
+            turtle.move(70d);
+            turtle.turnRight(90);
+            turtle.move(100d);
+            turtle.turnRight(90);
         }
 
         //HLAVA
-        zofka.turnLeft(45);
-        zofka.move(50d);
-        zofka.turnRight(90);
-        zofka.move(50d);
-        zofka.turnRight(135);
-        zofka.penUp();
-        zofka.move(70d);
-        zofka.penDown();
+        turtle.turnLeft(45);
+        turtle.move(50d);
+        turtle.turnRight(90);
+        turtle.move(50d);
+        turtle.turnRight(135);
+        turtle.penUp();
+        turtle.move(70d);
+        turtle.penDown();
 
         //NOHY
-        zofka.turnRight(45);
-        zofka.move(30d);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(30d);
+        turtle.turnRight(45);
+        turtle.move(30d);
+        turtle.penUp();
+        turtle.turnRight(180);
+        turtle.move(30d);
 
 
-        zofka.turnRight(90);
-        zofka.penDown();
-        zofka.move(30d);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(30d);
-        zofka.turnRight(135);
-        zofka.move(100d);
-        zofka.turnRight(135);
+        turtle.turnRight(90);
+        turtle.penDown();
+        turtle.move(30d);
+        turtle.penUp();
+        turtle.turnRight(180);
+        turtle.move(30d);
+        turtle.turnRight(135);
+        turtle.move(100d);
+        turtle.turnRight(135);
 
-        zofka.penDown();
-        zofka.move(30d);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(30d);
+        turtle.penDown();
+        turtle.move(30d);
+        turtle.penUp();
+        turtle.turnRight(180);
+        turtle.move(30d);
 
-        zofka.turnRight(90);
-        zofka.penDown();
-        zofka.move(30d);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(30d);
-        zofka.turnRight(45);
+        turtle.turnRight(90);
+        turtle.penDown();
+        turtle.move(30d);
+        turtle.penUp();
+        turtle.turnRight(180);
+        turtle.move(30d);
+        turtle.turnRight(45);
 
-        zofka.turnRight(90);
-        zofka.move(120d);
-        zofka.penDown();
+        turtle.turnRight(90);
+        turtle.move(120d);
+        turtle.penDown();
 
 
     }
 
-    private static void drawSun(Turtle zofka) {
+    private static void drawSun(Turtle turtle) {
         for (int i = 0; i < 10; i++) {
-            zofka.move(13d);
-            zofka.turnLeft(20);
-            zofka.move(13d);
-            zofka.turnLeft(20);
-            zofka.move(13d);
-            zofka.turnLeft(20);
-            zofka.turnRight(110);
-            zofka.move(30);
-            zofka.penUp();
-            zofka.turnRight(180);
-            zofka.move(30);
-            zofka.turnRight(90);
-            zofka.penDown();
+            turtle.move(13d);
+            turtle.turnLeft(20);
+            turtle.move(13d);
+            turtle.turnLeft(20);
+            turtle.move(13d);
+            turtle.turnLeft(20);
+            turtle.turnRight(110);
+            turtle.move(30);
+            turtle.penUp();
+            turtle.turnRight(180);
+            turtle.move(30);
+            turtle.turnRight(90);
+            turtle.penDown();
         }
 
     }
 
-    private static void drawCircle(Turtle zofka) {
+    private static void drawCircle(Turtle turtle) {
         for (int i = 0; i < 18; i++) {
-            zofka.move(18d);
-            zofka.turnLeft(20);
+            turtle.move(18d);
+            turtle.turnLeft(20);
         }
 
     }
 
-    private static void drawOctagon(Turtle zofka) {
+    private static void drawOctagon(Turtle turtle) {
         for (int i = 0; i < 8; i++) {
-            zofka.move(40d);
-            zofka.turnLeft(45);
+            turtle.move(40d);
+            turtle.turnLeft(45);
         }
 
     }
